@@ -18,17 +18,19 @@
 $(call inherit-product, device/samsung/m33x/device.mk)
 
 # Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Device identifier, this must come after all inclusions
 PRODUCT_DEVICE := m33x
-PRODUCT_NAME := lineage_m33x
+PRODUCT_NAME := aosp_m33x
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-M336B
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_SHIPPING_API_LEVEL := 34
 BOARD_SHIPPING_API_LEVEL := 31
 PRODUCT_CHARACTERISTICS := phone
+
+TARGET_SCREEN_WIDTH := 1080
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="m33xxx-user 15 AP3A.240905.015.A2 M336BXXSDFYG2 release-keys" \

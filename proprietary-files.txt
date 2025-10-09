@@ -40,7 +40,7 @@ vendor/lib64/libswlme.so
 # Camera - Patched HAL
 vendor/lib64/libexynoscamera3.so|13028f62282d84df1557e51910ddf0c97a670558|ba17806451697a0cf5d19863eeb024498e7c309d
 
-# Fingerprint
+# Fingerprint - Dependencies
 vendor/lib64/libbauthserver.so
 vendor/lib64/libbauthtzcommon.so
 
@@ -82,11 +82,6 @@ vendor/firmware/SM-M336K/NPU.bin|a651428700c97a6c122c547a57bf24ab1f703ce9
 vendor/firmware/SM-M336K/mfc_fw.bin|c9adf9aa07d2f1b1ec9e4e150430f028e5704cfe
 vendor/firmware/SM-M336K/os.checked.bin|f125016d8d13825d932795bf71897cddc0db8603
 
-# Keymint
-vendor/bin/hw/android.hardware.security.keymint-service:vendor/bin/hw/android.hardware.security.keymint-service.samsung
-vendor/lib64/libskeymint10device.so
-vendor/lib64/libskeymint_cli.so
-
 # Ramdisk - Firmware
 vendor/firmware/nt36672_m33x_csot.bin:vendor_ramdisk/vendor/firmware/nt36672_m33x_csot.bin
 vendor/firmware/nt36672_m33x_csot_mp.bin:vendor_ramdisk/vendor/firmware/nt36672_m33x_csot_mp.bin
@@ -102,7 +97,12 @@ vendor/firmware/nt36672_m33x_tianma.bin:recovery/root/vendor/firmware/nt36672_m3
 # RIL
 vendor/etc/floating_feature.xml
 
-# TEEgris - Firmware - for SM-M336B
+# Security - Keymint
+vendor/bin/hw/android.hardware.security.keymint-service:vendor/bin/hw/android.hardware.security.keymint-service.samsung
+vendor/lib64/libskeymint10device.so
+vendor/lib64/libskeymint_cli.so
+
+# Security - TEEgris - Firmware - for SM-M336B
 vendor/tee/driver/00000000-0000-0000-0000-494363447256:vendor/tee/SM-M336B/driver/00000000-0000-0000-0000-494363447256
 vendor/tee/driver/00000000-0000-0000-0000-4d53546d7374:vendor/tee/SM-M336B/driver/00000000-0000-0000-0000-4d53546d7374
 vendor/tee/driver/00000000-0000-0000-0000-53626f786476:vendor/tee/SM-M336B/driver/00000000-0000-0000-0000-53626f786476
@@ -139,7 +139,7 @@ vendor/tee/00000000-0000-0000-0000-6d706f667376:vendor/tee/SM-M336B/00000000-000
 vendor/tee/00000000-0000-0000-0000-6d73745f5441:vendor/tee/SM-M336B/00000000-0000-0000-0000-6d73745f5441
 vendor/tee/ffffffff-0000-0000-0000-000000000030:vendor/tee/SM-M336B/ffffffff-0000-0000-0000-000000000030
 
-# TEEgris Firmware - from SM-M336K - M336KKSSBFYH1
+# Security - TEEgris Firmware - from SM-M336K - M336KKSSBFYH1
 vendor/tee/SM-M336K/driver/00000000-0000-0000-0000-494363447256|0a0099ed8bc3554ce1beed7587b27d340232301b
 vendor/tee/SM-M336K/driver/00000000-0000-0000-0000-4d53546d7374|911678156b210082b482eb9ea5032d0ef7e14c84
 vendor/tee/SM-M336K/driver/00000000-0000-0000-0000-53626f786476|41bed92cda763fa8ffcd3c08cf4c94c823bd6dd3

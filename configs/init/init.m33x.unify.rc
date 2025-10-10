@@ -9,6 +9,17 @@ on early-init && property:ro.boot.em.model=SM-M336B
     # TEEgris
     mount none /vendor/tee/SM-M336B /vendor/tee bind
 
+# m33xins (swa_open)
+on early-init && property:ro.boot.em.model=SM-M336BU
+    # Firmware blobs
+    mount none /vendor/firmware/SM-M336BU/mfc_fw.bin /vendor/firmware/mfc_fw.bin bind
+    mount none /vendor/firmware/SM-M336BU/NPU.bin /vendor/firmware/NPU.bin bind
+    mount none /vendor/firmware/SM-M336BU/os.checked.bin /vendor/firmware/os.checked.bin bind
+    mount none /vendor/firmware/SM-M336BU/vts.bin /vendor/firmware/vts.bin bind
+    mount none /vendor/firmware/SM-M336BU/calliope_sram.bin /vendor/firmware/calliope_sram.bin bind
+    # TEEgris
+    mount none /vendor/tee/SM-M336BU /vendor/tee bind
+
 # m33xktt (kor_ktt)
 on early-init && property:ro.boot.em.model=SM-M336K
     # Firmware blobs

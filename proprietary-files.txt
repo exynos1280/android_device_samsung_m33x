@@ -28,6 +28,12 @@ vendor/firmware/SM-M336K/AP_AUDIO_SLSI.bin|29989f60d6365a69145f099ca923ba4588c58
 vendor/firmware/SM-M336K/calliope_sram.bin|7b16627e3f532eca75c51be2570ceb8bc3808268
 vendor/firmware/SM-M336K/vts.bin|bc2a1e43499288efea8265a451d495cd4bd68041
 
+# Audio - Firmware - Placeholders
+vendor/firmware/APDV_AUDIO_SLSI.bin|da39a3ee5e6b4b0d3255bfef95601890afd80709
+vendor/firmware/AP_AUDIO_SLSI.bin|da39a3ee5e6b4b0d3255bfef95601890afd80709
+vendor/firmware/calliope_sram.bin|da39a3ee5e6b4b0d3255bfef95601890afd80709
+vendor/firmware/vts.bin|da39a3ee5e6b4b0d3255bfef95601890afd80709
+
 # Bluetooth - Firmware
 vendor/etc/wifi/mx140_bt.hcf
 
@@ -92,6 +98,11 @@ vendor/firmware/SM-M336BU/os.checked.bin|b2f1014b956fa054b1a7d4e04fd424ed2d9a396
 vendor/firmware/SM-M336K/NPU.bin|a651428700c97a6c122c547a57bf24ab1f703ce9
 vendor/firmware/SM-M336K/mfc_fw.bin|c9adf9aa07d2f1b1ec9e4e150430f028e5704cfe
 vendor/firmware/SM-M336K/os.checked.bin|f125016d8d13825d932795bf71897cddc0db8603
+
+# Firmware - Placeholders
+vendor/firmware/NPU.bin|da39a3ee5e6b4b0d3255bfef95601890afd80709
+vendor/firmware/mfc_fw.bin|da39a3ee5e6b4b0d3255bfef95601890afd80709
+vendor/firmware/os.checked.bin|da39a3ee5e6b4b0d3255bfef95601890afd80709
 
 # Ramdisk - Firmware
 vendor/firmware/nt36672_m33x_csot.bin:vendor_ramdisk/vendor/firmware/nt36672_m33x_csot.bin

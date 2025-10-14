@@ -54,6 +54,9 @@ blob_fixups: blob_fixups_user_type = {
         .add_needed('android.hardware.security.rkp-V3-ndk.so')
         .replace_needed('libcrypto.so', 'libcrypto-tm.so')
         .add_needed('libshim_crypto.so'),
+    # NFC
+    'vendor/lib64/nfc_nci_nxpsn.so': blob_fixup()
+        .add_needed('libbase_shim.so')
 }  # fmt: skip
 
 module = ExtractUtilsModule(

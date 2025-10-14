@@ -43,10 +43,7 @@ PRODUCT_PACKAGES += \
     init.m33x.rc \
     init.m33x.unify.rc
 
-# Nfc
-PRODUCT_PACKAGES += android.hardware.nfc@1.2-service
-
-# Nfc - Configuration
+# NFC - Configuration
 PRODUCT_PACKAGES += \
     libnfc-nci.conf \
     libnfc-nxp.conf \

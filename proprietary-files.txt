@@ -104,6 +104,16 @@ vendor/firmware/NPU.bin|da39a3ee5e6b4b0d3255bfef95601890afd80709
 vendor/firmware/mfc_fw.bin|da39a3ee5e6b4b0d3255bfef95601890afd80709
 vendor/firmware/os.checked.bin|da39a3ee5e6b4b0d3255bfef95601890afd80709
 
+# NFC
+vendor/bin/hw/nxp.android.hardware.nfc@1.2-service
+vendor/etc/init/nxp.android.hardware.nfc@1.2-service.rc
+vendor/etc/vintf/manifest/nxp.android.hardware.nfc@1.2-service.xml
+vendor/lib64/nfc_nci_nxpsn.so
+vendor/lib64/vendor.samsung.hardware.nfc@2.0.so
+
+# NFC - Firmware
+vendor/firmware/nfc/libpn557_fw.so
+
 # Ramdisk - Firmware
 vendor/firmware/nt36672_m33x_csot.bin:vendor_ramdisk/vendor/firmware/nt36672_m33x_csot.bin
 vendor/firmware/nt36672_m33x_csot_mp.bin:vendor_ramdisk/vendor/firmware/nt36672_m33x_csot_mp.bin

@@ -1,8 +1,3 @@
-# Fingerprint
-ro.vendor.fingerprint.type=side
-ro.vendor.fingerprint.supports_gestures=false
-ro.vendor.fingerprint.sensor_location=1080|820|350|local:4633128672291735932
-
 # NFC
 ro.camera.notify_nfc=1
 ro.vendor.nfc.feature.chipname=NXP_SN100U

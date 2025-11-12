@@ -4,10 +4,6 @@ on post-fs-data
     chown system radio /sys/class/audio/earjack/state
     chown system radio /sys/class/audio/earjack/mic_adc
 
-    # Permissions for FM Radio
-    chown system audio /dev/radio0
-    chmod 0660 /dev/radio0
-
 on boot
     # Permissions for Grip sensor
     chown system radio /sys/class/sensors/grip_sensor/noti_enable

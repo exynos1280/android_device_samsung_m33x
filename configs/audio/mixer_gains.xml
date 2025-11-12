@@ -104,10 +104,6 @@
         <path name="gain-fm_radio-headset"/>
     </path>
 
-    <path name="gain-recording-fm-tuner">
-        <path name="gain-fm_radio-headset" />
-    </path>
-
     <path name="gain-fm_radio-usb-headset">
     </path>
 

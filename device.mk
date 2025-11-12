@@ -31,13 +31,6 @@ PRODUCT_PACKAGES += \
     mixer_gains.xml \
     mixer_paths.xml
 
-# FM Radio
-PRODUCT_PACKAGES += \
-    FMRadio \
-    libfmjni
-
-$(call soong_config_set,libfmjni,vendor,slsi)
-
 # Init
 PRODUCT_PACKAGES += \
     init.m33x.rc \

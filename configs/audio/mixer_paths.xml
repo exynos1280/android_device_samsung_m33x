@@ -2281,10 +2281,6 @@
         <path name="acquire-abox-wakelock" />
     </path>
 
-    <path name="recording-fm-tuner">
-        <path name="route-fm_radio-comp-pipeline" />
-    </path>
-
     <path name="route-fm_radio-speaker-comp-pipeline">
         <path name="dev-fm_radio-input" />
         <path name="route-spdy-to-nsrc2" />
